@@ -9,7 +9,7 @@
 public class ThatService {
     public init() {}
     
-    public func text() -> String {
-        return "Text from ThatService."
+    public func info() -> String {
+        return "Info from ThatService."
     }
 }

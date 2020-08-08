@@ -25,6 +25,6 @@ public class ClientViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = service.text()
+        label.text = service.info()
     }
 }

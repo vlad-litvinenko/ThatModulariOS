@@ -16,7 +16,7 @@ public struct ClientView: View {
     }
     
     public var body: some View {
-        Text(service.text())
+        Text(service.info())
     }
 }
 
@@ -27,7 +27,7 @@ struct ClientView_Previews: PreviewProvider {
 }
 
 class DummyService: Service {
-    func text() -> String {
-        return "Text from DummyService."
+    func info() -> String {
+        return "Dymmy Info."
     }
 }
