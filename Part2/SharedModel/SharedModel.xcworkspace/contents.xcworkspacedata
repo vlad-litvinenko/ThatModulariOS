@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ThatModel/ThatModel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThatApp/ThatApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThatClient/ThatClient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThatService/ThatService.xcodeproj">
+   </FileRef>
+</Workspace>
