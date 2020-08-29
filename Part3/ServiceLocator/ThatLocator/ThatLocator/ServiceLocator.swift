@@ -54,7 +54,7 @@ private class ServiceLocator {
     
     private let scopeMap = NSMapTable<NSString, AnyObject>.strongToWeakObjects()
     
-    var registry = [ObjectIdentifier: Any]()
+    fileprivate var registry = [ObjectIdentifier: Any]()
     
     func resolve<Service>() -> Service {
         let identifier = ObjectIdentifier(Service.self)
