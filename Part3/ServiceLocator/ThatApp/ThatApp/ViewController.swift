@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction private func swiftUITapped() {
-        let controller = UIHostingController(rootView: ClientView())
+        let controller = UIHostingController(rootView: ClientView(itemID: UUID().uuidString))
         navigationController?.pushViewController(controller, animated: true)
     }
 }

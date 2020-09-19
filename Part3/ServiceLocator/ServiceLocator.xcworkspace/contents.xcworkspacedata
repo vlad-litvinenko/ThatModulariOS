@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ThatModel/ThatModel.xcodeproj">
+      location = "group:ThatApp/ThatApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ThatApp/ThatApp.xcodeproj">
+      location = "group:ThatModel/ThatModel.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ThatClient/ThatClient.xcodeproj">

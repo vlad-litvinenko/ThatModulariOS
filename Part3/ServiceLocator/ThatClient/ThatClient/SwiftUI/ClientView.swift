@@ -13,8 +13,8 @@ import ThatLocator
 public struct ClientView: View {
     @ScopedInjected private var service: Service
     
-    public init() {
-        $service.scope = "MyView"
+    public init(itemID: String) {
+        $service.scope = itemID
     }
     
     public var body: some View {
@@ -27,7 +27,7 @@ struct ClientView_Previews: PreviewProvider {
     static var previews: some View {
         let registry = ServiceRegistry.global
         registry.register(DummyService() as Service)
-        return ClientView()
+        return ClientView(itemID: UUID().uuidString)
     }
 }
 
