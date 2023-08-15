@@ -5,9 +5,6 @@
       location = "group:ThatApp/ThatApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ThatModel/ThatModel.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ThatClient/ThatClient.xcodeproj">
    </FileRef>
    <FileRef

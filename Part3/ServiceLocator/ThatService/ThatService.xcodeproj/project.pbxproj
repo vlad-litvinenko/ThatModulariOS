@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5421FCB924F15B1B0029FBCA /* ThatLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5421FCB824F15B1B0029FBCA /* ThatLocator.framework */; };
-		5433F89924C4B88C004BB4DE /* ThatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433F89824C4B88C004BB4DE /* ThatService.swift */; };
-		5476FCD224E0628800C536D6 /* ThatModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5476FCD124E0628800C536D6 /* ThatModel.framework */; };
+		5433F89924C4B88C004BB4DE /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433F89824C4B88C004BB4DE /* Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5421FCB824F15B1B0029FBCA /* ThatLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ThatLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5433F89524C4B88C004BB4DE /* libThatService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThatService.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5433F89824C4B88C004BB4DE /* ThatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatService.swift; sourceTree = "<group>"; };
-		5476FCD124E0628800C536D6 /* ThatModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ThatModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5433F89824C4B88C004BB4DE /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,8 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5421FCB924F15B1B0029FBCA /* ThatLocator.framework in Frameworks */,
-				5476FCD224E0628800C536D6 /* ThatModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +43,6 @@
 			children = (
 				5433F89724C4B88C004BB4DE /* ThatService */,
 				5433F89624C4B88C004BB4DE /* Products */,
-				5476FCD024E0628800C536D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,18 +57,9 @@
 		5433F89724C4B88C004BB4DE /* ThatService */ = {
 			isa = PBXGroup;
 			children = (
-				5433F89824C4B88C004BB4DE /* ThatService.swift */,
+				5433F89824C4B88C004BB4DE /* Logic.swift */,
 			);
 			path = ThatService;
-			sourceTree = "<group>";
-		};
-		5476FCD024E0628800C536D6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5421FCB824F15B1B0029FBCA /* ThatLocator.framework */,
-				5476FCD124E0628800C536D6 /* ThatModel.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5433F89924C4B88C004BB4DE /* ThatService.swift in Sources */,
+				5433F89924C4B88C004BB4DE /* Logic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

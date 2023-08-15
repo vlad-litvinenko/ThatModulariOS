@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5433F88624C4B79F004BB4DE /* Client.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5433F88524C4B79F004BB4DE /* Client.storyboard */; };
-		5433F88824C4B7AD004BB4DE /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433F88724C4B7AD004BB4DE /* ClientViewController.swift */; };
 		5433F88B24C4B83C004BB4DE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433F88A24C4B83C004BB4DE /* Service.swift */; };
-		5487B89C24CC649E00E13578 /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487B89B24CC649E00E13578 /* ClientView.swift */; };
+		5487B89C24CC649E00E13578 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487B89B24CC649E00E13578 /* Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5433F87A24C4B77D004BB4DE /* ThatClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThatClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5433F87E24C4B77D004BB4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5433F88524C4B79F004BB4DE /* Client.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Client.storyboard; sourceTree = "<group>"; };
-		5433F88724C4B7AD004BB4DE /* ClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
 		5433F88A24C4B83C004BB4DE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		5487B89B24CC649E00E13578 /* ClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
+		5487B89B24CC649E00E13578 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +50,7 @@
 			children = (
 				5433F87E24C4B77D004BB4DE /* Info.plist */,
 				5433F88924C4B832004BB4DE /* Dependencies */,
-				5487B89D24CC650B00E13578 /* SwiftUI */,
-				5487B89A24CC646B00E13578 /* Storyboard */,
+				5487B89B24CC649E00E13578 /* Display.swift */,
 			);
 			path = ThatClient;
 			sourceTree = "<group>";
@@ -66,23 +61,6 @@
 				5433F88A24C4B83C004BB4DE /* Service.swift */,
 			);
 			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		5487B89A24CC646B00E13578 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				5433F88524C4B79F004BB4DE /* Client.storyboard */,
-				5433F88724C4B7AD004BB4DE /* ClientViewController.swift */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		5487B89D24CC650B00E13578 /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				5487B89B24CC649E00E13578 /* ClientView.swift */,
-			);
-			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +101,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Vladyslav Lytvynenko";
+				ORGANIZATIONNAME = "Vladislav Litvinenko";
 				TargetAttributes = {
 					5433F87924C4B77D004BB4DE = {
 						CreatedOnToolsVersion = 11.6;
@@ -154,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5433F88624C4B79F004BB4DE /* Client.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5433F88824C4B7AD004BB4DE /* ClientViewController.swift in Sources */,
 				5433F88B24C4B83C004BB4DE /* Service.swift in Sources */,
-				5487B89C24CC649E00E13578 /* ClientView.swift in Sources */,
+				5487B89C24CC649E00E13578 /* Display.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

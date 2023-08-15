@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5476FCC424E061C400C536D6 /* ThatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476FCC324E061C400C536D6 /* ThatInfo.swift */; };
+		5476FCC424E061C400C536D6 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476FCC324E061C400C536D6 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5476FCB824E0619B00C536D6 /* ThatModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThatModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5476FCBC24E0619B00C536D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5476FCC324E061C400C536D6 /* ThatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatInfo.swift; sourceTree = "<group>"; };
+		5476FCC324E061C400C536D6 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				5476FCBC24E0619B00C536D6 /* Info.plist */,
-				5476FCC324E061C400C536D6 /* ThatInfo.swift */,
+				5476FCC324E061C400C536D6 /* DataModel.swift */,
 			);
 			path = ThatModel;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5476FCC424E061C400C536D6 /* ThatInfo.swift in Sources */,
+				5476FCC424E061C400C536D6 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

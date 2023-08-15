@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5433F89924C4B88C004BB4DE /* ThatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433F89824C4B88C004BB4DE /* ThatService.swift */; };
+		5433F89924C4B88C004BB4DE /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433F89824C4B88C004BB4DE /* Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5433F89524C4B88C004BB4DE /* libThatService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThatService.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5433F89824C4B88C004BB4DE /* ThatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatService.swift; sourceTree = "<group>"; };
+		5433F89824C4B88C004BB4DE /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		5433F89724C4B88C004BB4DE /* ThatService */ = {
 			isa = PBXGroup;
 			children = (
-				5433F89824C4B88C004BB4DE /* ThatService.swift */,
+				5433F89824C4B88C004BB4DE /* Logic.swift */,
 			);
 			path = ThatService;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5433F89924C4B88C004BB4DE /* ThatService.swift in Sources */,
+				5433F89924C4B88C004BB4DE /* Logic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

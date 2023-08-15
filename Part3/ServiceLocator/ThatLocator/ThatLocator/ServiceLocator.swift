@@ -2,8 +2,9 @@
 //  ServiceLocator.swift
 //  ThatLocator
 //
-//  Created by Vlad Lytvynenko on 22.08.20.
-//  Copyright © 2020 Vlad Lytvynenko. All rights reserved.
+//  Original code by Oliver Eikemeier
+//  Firther development and extension
+//  by Vladislav Litvinenko and Maurice Arikoglu
 //
 
 import Foundation
@@ -85,7 +86,7 @@ private class ServiceLocator {
 public final class ServiceRegistry {
     public static let global = ServiceRegistry()
     
-    public func register<Service>(_ factory: @escaping @autoclosure () -> Service) {
+    public func register<Service>(_ factory: @escaping () -> Service) {
         let locator = ServiceLocator.global
         let identifier = ObjectIdentifier(Service.self)
         locator.registry[identifier] = factory

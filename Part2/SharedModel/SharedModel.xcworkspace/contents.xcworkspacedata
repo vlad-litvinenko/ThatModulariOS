@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ThatModel/ThatModel.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ThatApp/ThatApp.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,5 +9,8 @@
    </FileRef>
    <FileRef
       location = "group:ThatService/ThatService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThatModel/ThatModel.xcodeproj">
    </FileRef>
 </Workspace>
