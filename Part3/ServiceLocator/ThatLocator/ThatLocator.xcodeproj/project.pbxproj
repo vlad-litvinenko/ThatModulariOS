@@ -12,7 +12,6 @@
 
 /* Begin PBXFileReference section */
 		5421FCA424F15A440029FBCA /* ThatLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThatLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5421FCA824F15A440029FBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5421FCAF24F15AB60029FBCA /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +45,6 @@
 		5421FCA624F15A440029FBCA /* ThatLocator */ = {
 			isa = PBXGroup;
 			children = (
-				5421FCA824F15A440029FBCA /* Info.plist */,
 				5421FCAF24F15AB60029FBCA /* ServiceLocator.swift */,
 			);
 			path = ThatLocator;
@@ -267,7 +265,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ThatLocator/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,7 +290,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ThatLocator/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

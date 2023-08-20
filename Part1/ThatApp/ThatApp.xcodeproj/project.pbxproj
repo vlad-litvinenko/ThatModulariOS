@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		F543545C2A8BF49000864536 /* ThatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F543545B2A8BF49000864536 /* ThatApp.swift */; };
 		F543545E2A8BF49000864536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F543545D2A8BF49000864536 /* ContentView.swift */; };
-		F54354602A8BF49000864536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F543545F2A8BF49000864536 /* Assets.xcassets */; };
-		F54354632A8BF49000864536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54354622A8BF49000864536 /* Preview Assets.xcassets */; };
 		F543546C2A8BF49A00864536 /* ThatClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F543546A2A8BF49A00864536 /* ThatClient.framework */; };
 		F543546D2A8BF49A00864536 /* ThatClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F543546A2A8BF49A00864536 /* ThatClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F543546E2A8BF49A00864536 /* libThatService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F543546B2A8BF49A00864536 /* libThatService.a */; };
@@ -34,8 +32,6 @@
 		F54354582A8BF49000864536 /* ThatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F543545B2A8BF49000864536 /* ThatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatApp.swift; sourceTree = "<group>"; };
 		F543545D2A8BF49000864536 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F543545F2A8BF49000864536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F54354622A8BF49000864536 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F543546A2A8BF49A00864536 /* ThatClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ThatClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F543546B2A8BF49A00864536 /* libThatService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libThatService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -57,8 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				F543545A2A8BF49000864536 /* ThatApp */,
-				F54354592A8BF49000864536 /* Products */,
 				F54354692A8BF49A00864536 /* Frameworks */,
+				F54354592A8BF49000864536 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,18 +71,8 @@
 			children = (
 				F543545B2A8BF49000864536 /* ThatApp.swift */,
 				F543545D2A8BF49000864536 /* ContentView.swift */,
-				F543545F2A8BF49000864536 /* Assets.xcassets */,
-				F54354612A8BF49000864536 /* Preview Content */,
 			);
 			path = ThatApp;
-			sourceTree = "<group>";
-		};
-		F54354612A8BF49000864536 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F54354622A8BF49000864536 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		F54354692A8BF49A00864536 /* Frameworks */ = {
@@ -157,8 +143,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54354632A8BF49000864536 /* Preview Assets.xcassets in Resources */,
-				F54354602A8BF49000864536 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +282,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThatApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -326,7 +309,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThatApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
