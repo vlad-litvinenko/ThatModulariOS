@@ -7,22 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F50B2F012A8FE3060096B905 /* registerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B2F002A8FE3060096B905 /* registerServices.swift */; };
 		F543545C2A8BF49000864536 /* ThatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F543545B2A8BF49000864536 /* ThatApp.swift */; };
 		F543545E2A8BF49000864536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F543545D2A8BF49000864536 /* ContentView.swift */; };
-		F5EC07462AA3CA4500F701BF /* ThatClient in Frameworks */ = {isa = PBXBuildFile; productRef = F5EC07452AA3CA4500F701BF /* ThatClient */; };
-		F5EC07482AA3CA4500F701BF /* ThatLocator in Frameworks */ = {isa = PBXBuildFile; productRef = F5EC07472AA3CA4500F701BF /* ThatLocator */; };
-		F5EC074A2AA3CA4500F701BF /* ThatService in Frameworks */ = {isa = PBXBuildFile; productRef = F5EC07492AA3CA4500F701BF /* ThatService */; };
+		F5EC073C2AA3C72400F701BF /* ThatClient in Frameworks */ = {isa = PBXBuildFile; productRef = F5EC073B2AA3C72400F701BF /* ThatClient */; };
+		F5EC073E2AA3C72400F701BF /* ThatModel in Frameworks */ = {isa = PBXBuildFile; productRef = F5EC073D2AA3C72400F701BF /* ThatModel */; };
+		F5EC07402AA3C72400F701BF /* ThatService in Frameworks */ = {isa = PBXBuildFile; productRef = F5EC073F2AA3C72400F701BF /* ThatService */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F543546F2A8BF49A00864536 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F50B2F002A8FE3060096B905 /* registerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerServices.swift; sourceTree = "<group>"; };
 		F54354582A8BF49000864536 /* ThatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F543545B2A8BF49000864536 /* ThatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatApp.swift; sourceTree = "<group>"; };
 		F543545D2A8BF49000864536 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F5EC07412AA3C93200F701BF /* ThatClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThatClient; sourceTree = "<group>"; };
-		F5EC07422AA3C95000F701BF /* ThatService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThatService; sourceTree = "<group>"; };
-		F5EC07432AA3C98800F701BF /* ThatLocator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThatLocator; sourceTree = "<group>"; };
+		F59388D82AA3C65B00280A2F /* ThatModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThatModel; sourceTree = "<group>"; };
+		F5943B752AA3C5950049F4B4 /* ThatService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThatService; sourceTree = "<group>"; };
+		F5C2913A2AA3C5D400391AEF /* ThatClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThatClient; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,9 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EC07482AA3CA4500F701BF /* ThatLocator in Frameworks */,
-				F5EC07462AA3CA4500F701BF /* ThatClient in Frameworks */,
-				F5EC074A2AA3CA4500F701BF /* ThatService in Frameworks */,
+				F5EC073C2AA3C72400F701BF /* ThatClient in Frameworks */,
+				F5EC073E2AA3C72400F701BF /* ThatModel in Frameworks */,
+				F5EC07402AA3C72400F701BF /* ThatService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,9 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				F543545A2A8BF49000864536 /* ThatApp */,
-				F5EC07412AA3C93200F701BF /* ThatClient */,
-				F5EC07422AA3C95000F701BF /* ThatService */,
-				F5EC07432AA3C98800F701BF /* ThatLocator */,
+				F5C2913A2AA3C5D400391AEF /* ThatClient */,
+				F5943B752AA3C5950049F4B4 /* ThatService */,
+				F59388D82AA3C65B00280A2F /* ThatModel */,
 				F54354592A8BF49000864536 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +74,6 @@
 			children = (
 				F543545B2A8BF49000864536 /* ThatApp.swift */,
 				F543545D2A8BF49000864536 /* ContentView.swift */,
-				F50B2F002A8FE3060096B905 /* registerServices.swift */,
 			);
 			path = ThatApp;
 			sourceTree = "<group>";
@@ -78,6 +88,7 @@
 				F54354542A8BF49000864536 /* Sources */,
 				F54354552A8BF49000864536 /* Frameworks */,
 				F54354562A8BF49000864536 /* Resources */,
+				F543546F2A8BF49A00864536 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -85,9 +96,9 @@
 			);
 			name = ThatApp;
 			packageProductDependencies = (
-				F5EC07452AA3CA4500F701BF /* ThatClient */,
-				F5EC07472AA3CA4500F701BF /* ThatLocator */,
-				F5EC07492AA3CA4500F701BF /* ThatService */,
+				F5EC073B2AA3C72400F701BF /* ThatClient */,
+				F5EC073D2AA3C72400F701BF /* ThatModel */,
+				F5EC073F2AA3C72400F701BF /* ThatService */,
 			);
 			productName = ThatApp;
 			productReference = F54354582A8BF49000864536 /* ThatApp.app */;
@@ -141,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F50B2F012A8FE3060096B905 /* registerServices.swift in Sources */,
 				F543545E2A8BF49000864536 /* ContentView.swift in Sources */,
 				F543545C2A8BF49000864536 /* ThatApp.swift in Sources */,
 			);
@@ -342,15 +352,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F5EC07452AA3CA4500F701BF /* ThatClient */ = {
+		F5EC073B2AA3C72400F701BF /* ThatClient */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThatClient;
 		};
-		F5EC07472AA3CA4500F701BF /* ThatLocator */ = {
+		F5EC073D2AA3C72400F701BF /* ThatModel */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = ThatLocator;
+			productName = ThatModel;
 		};
-		F5EC07492AA3CA4500F701BF /* ThatService */ = {
+		F5EC073F2AA3C72400F701BF /* ThatService */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThatService;
 		};
